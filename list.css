@@ -1,0 +1,113 @@
+/* tag selector */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+#main {
+    background-color: whitesmoke;
+}
+
+#main-first {
+    height: 80px;
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-first b {
+    color: white;
+    font-size: 40px;
+}
+
+#main-second {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 30px;
+
+}
+
+.first-card {
+    border-radius: 10px;
+    width: 250px;
+    background-color: antiquewhite;
+    min-height: 300px;
+    box-shadow: 3px 4px 5px whitesmoke;
+    border-bottom: 4px solid red;
+
+}
+
+.card-title {
+    background-color: red;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+/* unordered list second card */
+.card-data ol {
+    padding: 30px;
+    padding-top: 30px;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.second-card {
+    border-radius: 10px;
+    width: 250px;
+    background-color: antiquewhite;
+    min-height: 300px;
+    box-shadow: 3px 4px 5px whitesmoke;
+    border-bottom: 4px solid yellow;
+    justify-content: space-around;
+}
+
+.card-title1 {
+    background-color: yellow;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+/* third card */
+.third-card {
+    border-radius: 10px;
+    width: 250px;
+    background-color: antiquewhite;
+    min-height: 300px;
+    box-shadow: 3px 4px 5px whitesmoke;
+    border-bottom: 4px solid blue;
+}
+
+.card-title2 {
+    background-color: blue;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    gap: 20px;
+}
